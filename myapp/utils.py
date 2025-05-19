@@ -7,7 +7,7 @@ import requests
 _model = None
 
 # Replaced recommendation_model.h5 with S3 URL
-S3_MODEL_URL = "https://<your-bucket-name>.s3.<your-region>.amazonaws.com/recommendation_model.h5"
+S3_MODEL_URL = "https://recommendation-system-load-model-bucket.s3.amazonaws.com/recommendation_model.h5"
 
 def load_model():
     global _model
