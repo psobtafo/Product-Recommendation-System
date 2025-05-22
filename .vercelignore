@@ -1,0 +1,73 @@
+.git/
+.gitmodules
+.gitattributes
+
+myapp/saved_models/
+*.h5 filter=lfs diff=lfs merge=lfs -text
+*.h5
+*.pkl
+*.pt
+*.zip
+*.tar
+*.tar.gz
+*.sqlite3
+*.bin
+*.gz
+*.rar
+
+train_model.py
+__pycache__/
+*.log
+*.ipynb
+*.csv
+*.pkl
+**/train*.py
+**/notebooks/
+*.ipynb
+*.ipynb_checkpoints/
+*.xlsx
+*.xls
+*.json
+!package.json
+!vercel.json
+.DS_Store
+
+# Ignore these root-level folders
+mizan_recommendation/
+mustafa_repo/
+my_app/
+
+# Cache directories
+**/__pycache__/
+**/.pytest_cache/
+**/.coverage
+**/.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Environment and local settings
+.env
+.env.* 
+venv/
+
+env/ 
+.venv/
+.python-version
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Deployment and documentation artifacts
+README.md
+CHANGELOG.md
+LICENSE
+docs/
+
+# Test directories
+**/tests/
+**/test/
+
+# Media and static files (if served elsewhere)
+media/
+static/uploads/
